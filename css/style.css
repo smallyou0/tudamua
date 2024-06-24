@@ -1417,6 +1417,9 @@ button {
   font-size: 1.6rem;
   font-weight: 700;
   border-radius: 1.0rem;
+  &.min-width {
+    min-width: 12.1rem;
+  }
   &.orange {
     background: #EF8424;
   }
