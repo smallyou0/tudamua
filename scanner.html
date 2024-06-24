@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>뚜다무아</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header-sub block">
+      <div class="align triple bg-f8 border-bottom">
+        <a class="btn-back" href="home.html"></a>
+        <h2>스캐너</h2>
+        <div class="w-24"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="content">
+        <div class="fixed-top img-wrap2">
+          <img src="images/@img_tuda_alert.png" alt="">
+        </div>
+
+        <div class="img-scanner">
+        </div>
+        <div class="fix-bottom pt35 pb35 cam-wrap cam-shot">
+          <div class="order1">
+            <label class="cam-again" id="btnCaptureRe" for=""></label>
+          </div>
+          <div class="order2" onclick="alert('준비중입니다')">
+            <div class="btn1">
+              <input class="input-hidden cam-file" type="file" id="weightFile" name="weightFile">
+              <label class="cam-shot" id="btnCaptureTemp" for=""></label>
+            </div>
+            <div class="btn2">
+              <button class="btn-next" type="button" alt="다음"></button>
+            </div>
+          </div>
+          <div class="order3">
+            <div class="input-write-wrap kg">
+              <input class="input-write" type="number" id="sTotalWeight" name="sTotalWeight">
+            </div>
+            <label class="cam-write" for="sTotalWeight"></label>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <!-- <script src="js/button.js"></script> -->
+  <!-- <script src="js/navFoot.js"></script> -->
+</html>
